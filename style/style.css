@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,600;0,800;1,500;1,800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+}
+.navbar-nav li a{
+    font-weight: 600;
+}
+.navWrap{
+    box-shadow: 0 0 10px #ccc;
+}
+.navSearchBar input{
+    font-weight: 600;
+    background-color: #efefef;
+    border: none;
+}
+.navSearchBar input:focus{
+    box-shadow: none;
+    background-color: #efefef;
+    outline: none;
+}
+.navSearchBar input::placeholder{color: #A2A2A2;}
+.navSearchBar .input-group-append span{
+    background-color: #efefef;
+    border: none;
+    cursor: pointer;
+}
+.navIcons a {color:#646464;}
+.navIcons a i{font-size: 20px;}
+.shoppingCartWrap{ position: relative;}
+.shoppingCartWrap span{
+    position: absolute;
+    top: -7px;
+    right: 0;
+    background-color: #ee1010;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    font-size: 11px;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    font-weight: 600;
+}
+.breadcrumbsWrap a{
+    color: #626262;
+    font-size: 14px;
+}
+.catHeadeing{
+    font-size: 24px;
+    font-weight: 600;
+}
+.itemCount{
+    color: #626262;
+     font-weight: 600;}
+.filterWrap{
+    border-right: 1px dashed #A2A2A2;
+}
+.filterWrap h5{
+    color: #626262;
+    font-size: 14px;
+    font-weight: 600;
+}
+.filterHeading{
+    font-size: 15px;
+    font-weight: 600;
+    color: #626262;
+}
+.form-checkinput input[type="checkbox"]:checked + label:before {
+    background: #fff;
+    color: #333;
+    content: "\2713";
+    text-align: center;
+  }
+.filterViewMore{
+    text-align: center; 
+}
+.filterViewMore a{
+    color: #ee1010;
+    font-size: 14px;
+}
+.form-check-label{ font-size: 14px;}
+.singleFilter{
+    border-bottom: 1px dashed #A2A2A2;
+    padding-top: 10px;
+}
+.productName{
+    font-size: 15px;
+    color: #000;
+}
+.productPrice{
+    font-size: 15px;
+    color: #626262;
+}
+.imgSection{
+    position: relative;
+    display: inline-block;
+}
+.imgSection .heartIcon{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 25px;
+}
+.imgSection .fa{
+    color:#ee1010
+}
+.imgSection .far{
+    color:#A2A2A2
+}
+.sliderPointers{
+    position: absolute;
+    left: 15px;
+    bottom: 10px;
+    display: flex;
+    flex-flow: column;
+    
+}
+.sliderPointers i{
+    font-size: 10px;
+    color: #C4C4C4 !important;
+    cursor: pointer;
+    margin-top: 3px;
+}
+.sortFilter{
+    font-size: 14px;
+    padding: 7px;
+    font-weight: 600;
+    border-radius: 5px;
+    border-color: #A2A2A2;
+}
+.sortFilter option span{
+    font-weight: normal;
+}
+.topFilter select{
+    padding: 2px 8px;
+    border-radius: 30px;
+    font-size: 14px;
+    color: #626262;
+    font-weight: 600;
+    margin-right: 10px;
+    border-color: #626262;
+    float: left;
+}
+.topFilter{
+    display: inline-block;
+}

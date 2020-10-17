@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Task</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="fontawesome/css/all.css">
+  <link rel="stylesheet" href="style/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container-fluid navWrap">
+  <div class="row py-2">
+    <div class="col-11 mx-auto">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#"> <img class="logo" src="images/logo-ketch.png" height="40"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar1">
+          <ul class="navbar-nav mr-auto"> 
+            <li class="nav-item active px-3"> <a class="nav-link text-dark" href="#">MEN </a></li>
+            <li class="nav-item px-3"><a class="nav-link text-dark" href="#"> WOMEN </a></li> 
+            <li class="nav-item px-3"><a class="nav-link text-dark" href="#"> NEW IN </a></li> 
+            <li class="nav-item px-3"><a class="nav-link text-dark" href="#"> SUPER SALE </a></li> 
+          </ul>
+          <div class="navSearchBar ml-auto">
+            <div class="input-group ">
+              <input type="text" class="form-control" placeholder="What are you looking for" aria-label="What are you looking for">
+              <div class="input-group-append">
+                <span class="input-group-text" id="basic-addon2"><i class="fa fa-search"></i></span>
+              </div>
+            </div>
+          </div>
+          <div class="navIcons ml-auto">
+              <a href="#" class="px-3"> 
+                <i class="far fa-user"></i>
+              </a>
+              <a href="#" class="px-3"> 
+                <i class="far fa-heart"></i>
+              </a>
+              <a href="#" class="px-3 shoppingCartWrap"> 
+                <i class="fas fa-shopping-bag"></i>
+                <span class="counter">10</span>
+              </a>
+
+            </div>
+          </div>
+        </div>
+
+      
+      </nav>
+</div>
+
+</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-11 mx-auto">
+      <div class="row my-4">
+        <div class="col-md-8">
+          <div class="breadcrumbsWrap">
+            <a href="#">Home / </a>
+            <a href="#">Clothing / </a>
+            <a href="#">Mens Clothing / </a>
+            <a href="#">Shirt / </a>
+            <a href="#">Heighlander Shirt </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <select id="sort" name="sort" class="float-right sortFilter">
+            <option value="rec"><span>Sort By:</span> Recommeded</option>
+            <option value="lo">Low to High</option>
+            <option value="high">Hight to Low</option>
+            <option value="New">New First</option>
+          </select>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-11 mx-auto">
+      <h2 class="catHeadeing mb-0">
+        Heighlander's Shirt Men Apparels
+      </h2>
+      <small class="itemCount pl-2">994 Items</small>
+    </div>
+  </div>
+  <div class="row mt-3">
+    <div class="col-11 mx-auto">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="filterWrap px-3">
+            <h5>FILTERS</h5>
+            <div class="singleFilter">
+              <h6 class="filterHeading">Category</h6>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="category1">
+                <label class="form-check-label" for="category1">
+                  T-Shirt
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" checked value="" id="category2">
+                <label class="form-check-label" for="category2">
+                  Shirt
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="category3">
+                <label class="form-check-label" for="category3">
+                  Capris
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="category4">
+                <label class="form-check-label" for="category4">
+                  Jeans
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="category5">
+                <label class="form-check-label" for="category5">
+                  Shorts
+                </label>
+              </div>
+              <div class="filterViewMore py-2">
+                <a href="#">View More (+10) </a>
+              </div>
+            </div>
+            <div class="singleFilter">
+              <h6 class="filterHeading">Brand</h6>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="brand1">
+                <label class="form-check-label" for="brand1">
+                  Addidas (25)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" checked value="" id="brand2">
+                <label class="form-check-label" for="brand2">
+                  Heighlander (25)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="brand3">
+                <label class="form-check-label" for="brand3">
+                  Tokyo talkies (25)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="brand4">
+                <label class="form-check-label" for="brand4">
+                  Mercella (25)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="brand5">
+                <label class="form-check-label" for="brand5">
+                  GV Fashion (25)
+                </label>
+              </div>
+              <div class="filterViewMore py-2">
+                <a href="#">View More (+10) </a>
+              </div>
+            </div>
+            <div class="singleFilter">
+              <h6 class="filterHeading">Prices</h6>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="price1">
+                <label class="form-check-label" for="price1">
+                  Rs. 299 to Rs. 399 (25)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" checked value="" id="price2">
+                <label class="form-check-label" for="price2">
+                  Rs. 399 to Rs. 499 (25)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="price3">
+                <label class="form-check-label" for="price3">
+                  Rs. 499 to Rs. 599 (25)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="price4">
+                <label class="form-check-label" for="price4">
+                  Rs. 599 to Rs. 699 (25)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="price5">
+                <label class="form-check-label" for="price5">
+                  Rs. 699 to Rs. 799 (25)
+                </label>
+              </div>
+              <div class="filterViewMore py-2">
+                <a href="#">View More (+10) </a>
+              </div>
+            </div>
+            <div class="singleFilter">
+              <h6 class="filterHeading">Color</h6>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="color1">
+                <label class="form-check-label" for="color1">
+                  Navy Blue (25)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" checked value="" id="color2">
+                <label class="form-check-label" for="color2">
+                  Black (25)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="color3">
+                <label class="form-check-label" for="color3">
+                  Yellow (25)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="color4">
+                <label class="form-check-label" for="color4">
+                  Pink (25)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="color5">
+                <label class="form-check-label" for="color5">
+                  Grey (25)
+                </label>
+              </div>
+              <div class="filterViewMore py-2">
+                <a href="#">View More (+10) </a>
+              </div>
+            </div>
+            <div class="singleFilter">
+              <h6 class="filterHeading">Discount</h6>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                <label class="form-check-label" for="exampleRadios1">
+                  10% Discount (25)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option1" checked>
+                <label class="form-check-label" for="exampleRadios2">
+                  20% Discount (25)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option1" checked>
+                <label class="form-check-label" for="exampleRadios3">
+                  30% Discount (25)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option1" checked>
+                <label class="form-check-label" for="exampleRadios4">
+                  35% Discount (25)
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios5" value="option1" checked>
+                <label class="form-check-label" for="exampleRadios5">
+                  40% Discount (25)
+                </label>
+              </div>
+              <div class="filterViewMore py-2">
+                <a href="#">View More (+10) </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div class="row">
+            <div class="col-12">
+              <div class="topFilter py-2">
+                <select id="bundles" name="bundls">
+                  <option value="bundles">Bundles</option> 
+                </select>
+                <select id="collar" name="collar">
+                  <option value="collar">Collar</option> 
+                </select>
+                <select id="fabric" name="fabric">
+                  <option value="fabric">Fabric</option> 
+                </select>
+                <select id="fit" name="fit">
+                  <option value="fit">Fit</option> 
+                </select>
+                <select id="hemline" name="hemline">
+                  <option value="hemline">Hemline</option> 
+                </select>
+                <select id="occassion" name="occassion">
+                  <option value="occassion">Occassion</option> 
+                </select> 
+                <div class="filterViewMore float-left">
+                  <a href="#">View More (+10) </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="productDetail">
+                <div class="imgSection">
+                  <img src="images/productImg.jpg" class="img-fluid" alt="">
+                  <div class="sliderPointers">
+                    <i class="far fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                  </div>
+                  <div class="heartIcon">
+                      <i class="fa fa-heart heartIcon"></i>
+                  </div>
+                </div>
+                <div class="nameSection py-2">
+                  <p class="productName mb-0">Heighlander's Men Apparels</p>
+                  <p class="productPrice">Rs. 460 <del class="pl-2">Rs. 999</del></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="productDetail">
+                <div class="imgSection">
+                  <img src="images/productImg.jpg" class="img-fluid" alt="">
+                  <div class="sliderPointers">
+                    <i class="far fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                  </div>
+                  <div class="heartIcon">
+                      <i class="far fa-heart heartIcon"></i>
+                  </div>
+                </div>
+                <div class="nameSection py-2">
+                  <p class="productName mb-0">Heighlander's Men Apparels</p>
+                  <p class="productPrice">Rs. 460 <del class="pl-2">Rs. 999</del></p>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-3">
+              <div class="productDetail">
+                <div class="imgSection">
+                  <img src="images/productImg.jpg" class="img-fluid" alt="">
+                  <div class="sliderPointers">
+                    <i class="far fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                  </div>
+                  <div class="heartIcon">
+                      <i class="fa fa-heart heartIcon"></i>
+                  </div>
+                </div>
+                <div class="nameSection py-2">
+                  <p class="productName mb-0">Heighlander's Men Apparels</p>
+                  <p class="productPrice">Rs. 460 <del class="pl-2">Rs. 999</del></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="productDetail">
+                <div class="imgSection">
+                  <img src="images/productImg.jpg" class="img-fluid" alt="">
+                  <div class="sliderPointers">
+                    <i class="far fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                  </div>
+                  <div class="heartIcon">
+                      <i class="far fa-heart heartIcon"></i>
+                  </div>
+                </div>
+                <div class="nameSection py-2">
+                  <p class="productName mb-0">Heighlander's Men Apparels</p>
+                  <p class="productPrice">Rs. 460 <del class="pl-2">Rs. 999</del></p>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-3">
+              <div class="productDetail">
+                <div class="imgSection">
+                  <img src="images/productImg.jpg" class="img-fluid" alt="">
+                  <div class="sliderPointers">
+                    <i class="far fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                  </div>
+                  <div class="heartIcon">
+                      <i class="fa fa-heart heartIcon"></i>
+                  </div>
+                </div>
+                <div class="nameSection py-2">
+                  <p class="productName mb-0">Heighlander's Men Apparels</p>
+                  <p class="productPrice">Rs. 460 <del class="pl-2">Rs. 999</del></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="productDetail">
+                <div class="imgSection">
+                  <img src="images/productImg.jpg" class="img-fluid" alt="">
+                  <div class="sliderPointers">
+                    <i class="far fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                  </div>
+                  <div class="heartIcon">
+                      <i class="far fa-heart heartIcon"></i>
+                  </div>
+                </div>
+                <div class="nameSection py-2">
+                  <p class="productName mb-0">Heighlander's Men Apparels</p>
+                  <p class="productPrice">Rs. 460 <del class="pl-2">Rs. 999</del></p>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-3">
+              <div class="productDetail">
+                <div class="imgSection">
+                  <img src="images/productImg.jpg" class="img-fluid" alt="">
+                  <div class="sliderPointers">
+                    <i class="far fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                  </div>
+                  <div class="heartIcon">
+                      <i class="fa fa-heart heartIcon"></i>
+                  </div>
+                </div>
+                <div class="nameSection py-2">
+                  <p class="productName mb-0">Heighlander's Men Apparels</p>
+                  <p class="productPrice">Rs. 460 <del class="pl-2">Rs. 999</del></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="productDetail">
+                <div class="imgSection">
+                  <img src="images/productImg.jpg" class="img-fluid" alt="">
+                  <div class="sliderPointers">
+                    <i class="far fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                  </div>
+                  <div class="heartIcon">
+                      <i class="far fa-heart heartIcon"></i>
+                  </div>
+                </div>
+                <div class="nameSection py-2">
+                  <p class="productName mb-0">Heighlander's Men Apparels</p>
+                  <p class="productPrice">Rs. 460 <del class="pl-2">Rs. 999</del></p>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-3">
+              <div class="productDetail">
+                <div class="imgSection">
+                  <img src="images/productImg.jpg" class="img-fluid" alt="">
+                  <div class="sliderPointers">
+                    <i class="far fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                  </div>
+                  <div class="heartIcon">
+                      <i class="fa fa-heart heartIcon"></i>
+                  </div>
+                </div>
+                <div class="nameSection py-2">
+                  <p class="productName mb-0">Heighlander's Men Apparels</p>
+                  <p class="productPrice">Rs. 460 <del class="pl-2">Rs. 999</del></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="productDetail">
+                <div class="imgSection">
+                  <img src="images/productImg.jpg" class="img-fluid" alt="">
+                  <div class="sliderPointers">
+                    <i class="far fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                  </div>
+                  <div class="heartIcon">
+                      <i class="far fa-heart heartIcon"></i>
+                  </div>
+                </div>
+                <div class="nameSection py-2">
+                  <p class="productName mb-0">Heighlander's Men Apparels</p>
+                  <p class="productPrice">Rs. 460 <del class="pl-2">Rs. 999</del></p>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-3">
+              <div class="productDetail">
+                <div class="imgSection">
+                  <img src="images/productImg.jpg" class="img-fluid" alt="">
+                  <div class="sliderPointers">
+                    <i class="far fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                  </div>
+                  <div class="heartIcon">
+                      <i class="fa fa-heart heartIcon"></i>
+                  </div>
+                </div>
+                <div class="nameSection py-2">
+                  <p class="productName mb-0">Heighlander's Men Apparels</p>
+                  <p class="productPrice">Rs. 460 <del class="pl-2">Rs. 999</del></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="productDetail">
+                <div class="imgSection">
+                  <img src="images/productImg.jpg" class="img-fluid" alt="">
+                  <div class="sliderPointers">
+                    <i class="far fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                    <i class="fa fa-circle"></i>
+                  </div>
+                  <div class="heartIcon">
+                      <i class="far fa-heart heartIcon"></i>
+                  </div>
+                </div>
+                <div class="nameSection py-2">
+                  <p class="productName mb-0">Heighlander's Men Apparels</p>
+                  <p class="productPrice">Rs. 460 <del class="pl-2">Rs. 999</del></p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
