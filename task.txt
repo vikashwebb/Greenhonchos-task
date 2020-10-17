@@ -1,0 +1,7 @@
+Exercise details:
+Access the following design: https://www.figma.com/proto/wANULk4tuc2hTZ3VW0OC9V/Ketch?node-id=170%3A17&scaling=min-zoom
+Convert it into an HTML page, and share with us.
+Notes:
+You can take a screenshot of the design listed above and slice it in any any photo editor tool. One such is available online at Photopea.
+Font used in the design is: https://fonts.google.com/specimen/Mulish?query=muli It is a Google Font.
+(Ask us if you have any questions.)
